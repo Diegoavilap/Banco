@@ -26,6 +26,9 @@
     	<activity android:name = ".Cajero2"  />
     	<activity android:name = ".Admin"  />
     	<activity android:name = ".MenuAdmin"  />
+    	<activity android:name = ".Consulta"  />
+    	<activity android:name = ".Retiro"  />
+    	<activity android:name = ".Clave"  />
     </application>
     
 
