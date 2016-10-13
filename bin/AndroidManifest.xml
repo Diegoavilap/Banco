@@ -24,6 +24,8 @@
         </activity>
         <activity android:name = ".Cajero"  />
     	<activity android:name = ".Cajero2"  />
+    	<activity android:name = ".Admin"  />
+    	<activity android:name = ".MenuAdmin"  />
     </application>
     
 

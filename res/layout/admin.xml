@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"    
-    android:background="#FAB334" 
-    >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FAB334"  >
 
     <LinearLayout
-        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
         android:orientation="vertical" >
 
         <TextView
@@ -22,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Su Banco"
             android:textSize="22sp" />
-        
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content" >
@@ -33,20 +28,19 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:text="Cajero"
+                android:text="Administrador"
                 android:textSize="22sp" />
         </RelativeLayout>
-
-        <EditText
-            android:id="@+id/editText1"
+                <EditText
+            android:id="@+id/usuAdmin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="17dp"
             android:ems="10"
-            android:hint="Numero de cuenta" />
+            android:hint="Usuario" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/passAdmin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -58,12 +52,11 @@
         </EditText>
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/butIngresarAdmin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="Fun_cajero2"
+            android:onClick="Fun_MenuAdmin"
             android:text="Ingresar" />
-
     </LinearLayout>
 
 </RelativeLayout>
